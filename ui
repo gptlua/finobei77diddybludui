@@ -1031,8 +1031,8 @@ getgenv().Loaded = true
     -- Library element functions
         function Library:Window(properties)
             local Cfg = {
-                Prefix = properties.Prefix or "XEZIOS";
-                Suffix = properties.Suffix or "PRIME";
+                Prefix = properties.Prefix or "White";
+                Suffix = properties.Suffix or "List";
                 Size = properties.Size or dim2(0, 620, 0, 471);
                 TabInfo;
                 Items = {};
